@@ -1091,9 +1091,10 @@ label {
   left: 0;
   top: 0;
   width: 100%;
-  /* height: calc(100% - 164px); */
+  height: calc(100% - 164px);
   z-index: -1;
 }
+
 .banner-bg-two::before {
   content: "";
   position: absolute;
