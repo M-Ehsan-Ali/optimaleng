@@ -1,13 +1,3 @@
-import About from "@/components/About/About";
-import BannerTwo from "@/components/Banner/BannerTwo";
-import ContactTwo from "@/components/Contact/ContactTwo";
-import CountDownTwo from "@/components/CountDown/CountDownTwo";
-import CounterArea from "@/components/CounterArea/CounterArea";
-import DownloadArea from "@/components/DownloadArea/DownloadArea";
-import Faq from "@/components/Faq/Faq";
-import Newsletter from "@/components/Newsletter/Newsletter";
-import RoadmapTwo from "@/components/Roadmap/SelectProject";
-import TeamTwo from "@/components/Team/TeamTwo";
 import LayoutTwo from "@/layouts/LayoutTwo";
 import Head from "next/head";
 
@@ -21,17 +11,17 @@ export default function HomeTwo() {
 
       <LayoutTwo>
         <main>
-          <BannerTwo />
+          {/* <BannerTwo />
           <CountDownTwo />
-          <About />
+          <About /> */}
           {/* <WhyChooseUsTwo /> */}
-          <CounterArea />
+          {/* <CounterArea />
           <RoadmapTwo />
           <TeamTwo />
           <DownloadArea />
           <Faq />
           <ContactTwo />
-          <Newsletter />
+          <Newsletter /> */}
         </main>
       </LayoutTwo>
     </>
