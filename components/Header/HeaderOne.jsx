@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import { handleClickScroll } from "@/lib/helpers";
 import cn from "classnames";
 import $ from "jquery";
 import Link from "next/link";
-import { handleClickScroll } from "@/lib/helpers";
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 let flag = true;
 
@@ -108,7 +108,7 @@ const HeaderOne = () => {
                         )}
                       >
                         <Link
-                          href="#header"
+                          href=""
                           className={"section-link"}
                           onClick={() => handleClickScroll("header")}
                         >
@@ -126,11 +126,7 @@ const HeaderOne = () => {
                         </ul>
                       </li>
                       <li className={cn(hash == "about" && "active")}>
-                        <Link
-                          href="#about"
-                          className={"section-link"}
-                          onClick={() => handleClickScroll("about")}
-                        >
+                        <Link href="about" className={"section-link"}>
                           About us
                         </Link>
                       </li>

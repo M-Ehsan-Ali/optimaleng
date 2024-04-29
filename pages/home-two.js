@@ -1,7 +1,7 @@
 import LayoutTwo from "@/layouts/LayoutTwo";
 import Head from "next/head";
 
-export default function HomeTwo() {
+export default function About() {
   return (
     <>
       <Head>

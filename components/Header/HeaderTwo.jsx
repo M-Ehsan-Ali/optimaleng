@@ -119,7 +119,7 @@ const HeaderTwo = () => {
                         )}
                       >
                         <Link
-                          href="#header"
+                          href="/"
                           className="section-link"
                           onClick={() => handleClickScroll("header")}
                         >
@@ -127,11 +127,7 @@ const HeaderTwo = () => {
                         </Link>
                       </li>
                       <li className={cn(hash == "about" && "active")}>
-                        <Link
-                          href="#about"
-                          className="section-link"
-                          onClick={() => handleClickScroll("about")}
-                        >
+                        <Link href="about?#about" className="section-link">
                           About us
                         </Link>
                       </li>

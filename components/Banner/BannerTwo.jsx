@@ -1,4 +1,3 @@
-import { handleClickScroll } from "@/lib/helpers";
 import Link from "next/link";
 
 const BannerTwo = () => {
@@ -55,11 +54,7 @@ const BannerTwo = () => {
       </div>
       <div className="banner-scroll">
         <span>Scroll down</span>
-        <Link
-          href="#about"
-          data-target="#about"
-          onClick={() => handleClickScroll("about")}
-        >
+        <Link href="about" data-target="about">
           <img src={"/img/icon/scroll_icon.svg"} alt="" />
         </Link>
       </div>
