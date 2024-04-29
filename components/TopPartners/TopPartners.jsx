@@ -1,5 +1,3 @@
-import React from "react";
-
 const TopPartners = () => {
   const partners_list = [
     { src: "/img/partner/partner_img01.png", title: "" },
@@ -20,7 +18,9 @@ const TopPartners = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="section-title text-center mb-10">
-              <span className="sub-title">Our top partner</span>
+              <h2 className="title">
+                <span>Our Partners</span>
+              </h2>
             </div>
           </div>
         </div>

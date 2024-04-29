@@ -33,7 +33,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-lg-6">
-            <img src={"/img/images/h2_about_img.jpeg"} alt="" />
+            <img src={"/img/images/h2_about_img.png"} alt="" />
           </div>
         </div>
       </div>

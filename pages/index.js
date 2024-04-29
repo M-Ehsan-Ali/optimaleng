@@ -1,8 +1,12 @@
 import About from "@/components/About/About";
 import BannerTwo from "@/components/Banner/BannerTwo";
+import ContactTwo from "@/components/Contact/ContactTwo";
 import ProfessionalAffiliation from "@/components/ProfessionalAffiliation/ProfessionalAffiliation";
+import SelectProject from "@/components/Roadmap/SelectProject";
+import Testimonials from "@/components/Team/Testimonials";
+import TopPartners from "@/components/TopPartners/TopPartners";
+import OurProcess from "@/components/WhyChooseUs/OurProcess";
 import OurServices from "@/components/WhyChooseUs/OurServices";
-import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 import LayoutTwo from "@/layouts/LayoutTwo";
 import Head from "next/head";
 
@@ -21,13 +25,11 @@ export default function Home() {
           <About />
           <OurServices />
           <ProfessionalAffiliation />
-          <WhyChooseUs />
-          {/* <RoadmapTwo />
-          <TeamTwo />
-          <DownloadArea />
-          <Faq />
+          <OurProcess />
+          <SelectProject />
+          <Testimonials />
+          <TopPartners />
           <ContactTwo />
-          <Newsletter /> */}
         </main>
       </LayoutTwo>
     </>

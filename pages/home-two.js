@@ -6,7 +6,7 @@ import CounterArea from "@/components/CounterArea/CounterArea";
 import DownloadArea from "@/components/DownloadArea/DownloadArea";
 import Faq from "@/components/Faq/Faq";
 import Newsletter from "@/components/Newsletter/Newsletter";
-import RoadmapTwo from "@/components/Roadmap/RoadmapTwo";
+import RoadmapTwo from "@/components/Roadmap/SelectProject";
 import TeamTwo from "@/components/Team/TeamTwo";
 import LayoutTwo from "@/layouts/LayoutTwo";
 import Head from "next/head";

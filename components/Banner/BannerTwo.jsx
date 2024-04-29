@@ -17,7 +17,7 @@ const BannerTwo = () => {
                 of construction projects
               </h5>
               <img
-                src={"/img/banner/banner_img.jpg"}
+                src={"/img/banner/banner_img.png"}
                 width={"100%"}
                 alt="img"
               />

@@ -8,7 +8,7 @@ const OurServices = () => {
               className="about-img-two text-center wow fadeInLeft"
               data-wow-delay=".2s"
             >
-              <img src={"/img/images/ourService.jpeg"} alt="" />
+              <img src={"/img/images/ourService.png"} alt="" />
             </div>
           </div>
           <div className="col-lg-6">
