@@ -1,6 +1,5 @@
 import { scrollToTop } from "@/lib/helpers";
 import Link from "next/link";
-import React from "react";
 
 const FooterTwo = () => {
   return (
@@ -59,7 +58,9 @@ const FooterTwo = () => {
             <div className="row">
               <div className="col-lg-5">
                 <div className="copyright-text">
-                  <p>Copyright &copy; 2022. All Rights Reserved Bigtech</p>
+                  <p>
+                    Copyright © 2024 Optimal Engineering. All rights reserved
+                  </p>
                 </div>
               </div>
               <div className="col-lg-2">

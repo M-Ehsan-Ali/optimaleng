@@ -1,6 +1,5 @@
 import { scrollToTop } from "@/lib/helpers";
 import Link from "next/link";
-import React from "react";
 
 const FooterOne = () => {
   return (
@@ -24,7 +23,7 @@ const FooterOne = () => {
                   data-wow-delay=".2s"
                 >
                   <Link href="/" className="f-logo">
-                    <img src={"/img/logo/logo.png"} alt="BigTech Logo" />
+                    <img src={"/img/logo/logo.jpg"} alt="BigTech Logo" />
                   </Link>
                   <div className="footer-content">
                     <p>
@@ -140,7 +139,9 @@ const FooterOne = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="copyright-text">
-                  <p>Copyright &copy; 2022. All Rights Reserved Bigtech</p>
+                  <p>
+                    Copyright © 2024 Optimal Engineering. All rights reserved
+                  </p>
                 </div>
               </div>
               <div className="col-lg-6 d-none d-sm-block">

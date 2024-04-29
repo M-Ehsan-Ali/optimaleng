@@ -1,22 +1,16 @@
-import React from "react";
-
 const ContactTwoInfo = () => {
   const info_items = [
     {
       src: "/img/icon/contact_icon01.svg",
-      info: "Chevy Chase, Maryland 20815 Wisconsin Ave, Suite 700",
+      info: "7030 woodbine Ave, Office 500 Markham, ON,L3R 6G2",
     },
     {
       src: "/img/icon/contact_icon01.svg",
-      info: "support@figma.com",
+      info: "info@buysmartlive.com",
     },
     {
       src: "/img/icon/contact_icon01.svg",
-      info: "088 (778 886 664)",
-    },
-    {
-      src: "/img/icon/contact_icon01.svg",
-      info: "088 (778 886 664)",
+      info: "647 948 4742",
     },
   ];
 
@@ -26,9 +20,9 @@ const ContactTwoInfo = () => {
 
       {info_items.map((x, index) => (
         <div key={index} className="contact-list-item">
-          <div className="icon">
+          {/* <div className="icon">
             <img src={x.src} alt="" />
-          </div>
+          </div> */}
           <div className="content">
             <p>{x.info}</p>
           </div>
