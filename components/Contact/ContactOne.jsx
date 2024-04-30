@@ -1,4 +1,3 @@
-import React from "react";
 import ContactOneForm from "./ContactOneForm";
 import ContactOneInfoItem from "./ContactOneInfoItem";
 
@@ -33,7 +32,7 @@ const ContactOne = () => {
   ];
 
   return (
-    <section id="contact" className="contact-area pt-70 pb-110">
+    <section className="contact-area pt-70 pb-110">
       <div className="container">
         {/* section title */}
         <div className="row justify-content-center">

@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 
 const FooterThree = () => {
@@ -49,7 +48,7 @@ const FooterThree = () => {
                   <div className="footer-link">
                     <ul>
                       <li>
-                        <Link href="#">Contact us</Link>
+                        <Link href="contact?#contact">Contact us</Link>
                       </li>
                       <li>
                         <Link href="#">How it Works</Link>

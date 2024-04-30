@@ -1,5 +1,4 @@
 import { scrollToTop } from "@/lib/helpers";
-import Link from "next/link";
 
 const FooterTwo = () => {
   return (
@@ -10,7 +9,7 @@ const FooterTwo = () => {
             <div className="row">
               <div className="col-md-8">
                 <div className="footer-menu-two">
-                  <ul className="navigation">
+                  {/* <ul className="navigation">
                     <li>
                       <Link href="/">About us</Link>
                     </li>
@@ -23,7 +22,7 @@ const FooterTwo = () => {
                     <li>
                       <Link href="/">Career</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
               <div className="col-md-4">
@@ -77,14 +76,14 @@ const FooterTwo = () => {
               </div>
               <div className="col-lg-5">
                 <div className="footer-bottom-menu">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <Link href="#">Terms of Service</Link>
                     </li>
                     <li>
                       <Link href="#">Privacy Policy</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>

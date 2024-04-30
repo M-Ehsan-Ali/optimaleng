@@ -1,6 +1,6 @@
 const MissionVisionAndPrinciples = () => {
   return (
-    <section id="about" className="about-area-two">
+    <section className="about-area-two">
       <div className="container custom-container-four">
         <div className="row align-items-center">
           <div className="col-lg-6">

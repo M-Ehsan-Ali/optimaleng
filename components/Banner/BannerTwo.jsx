@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 const BannerTwo = () => {
   return (
     <section className="banner-area-two">
@@ -24,7 +22,7 @@ const BannerTwo = () => {
           </div>
         </div>
       </div>
-      <div className="banner-social-wrap">
+      {/* <div className="banner-social-wrap">
         <ul>
           <li>
             <a href="#" className="banner-social-link">
@@ -54,10 +52,10 @@ const BannerTwo = () => {
       </div>
       <div className="banner-scroll">
         <span>Scroll down</span>
-        <Link href="about" data-target="about">
+        <Link href="about?#about" data-target="about">
           <img src={"/img/icon/scroll_icon.svg"} alt="" />
         </Link>
-      </div>
+      </div> */}
     </section>
   );
 };

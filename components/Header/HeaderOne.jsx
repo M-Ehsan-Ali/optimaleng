@@ -126,7 +126,7 @@ const HeaderOne = () => {
                         </ul>
                       </li>
                       <li className={cn(hash == "about" && "active")}>
-                        <Link href="about" className={"section-link"}>
+                        <Link href="about?#about" className={"section-link"}>
                           About us
                         </Link>
                       </li>
@@ -165,9 +165,8 @@ const HeaderOne = () => {
                       </li>
                       <li className={isActiveLink("#contact")}>
                         <Link
-                          href="#contact"
+                          href="contact?#contact"
                           className={"section-link"}
-                          onClick={() => handleClickScroll("contact")}
                         >
                           Contact us
                         </Link>

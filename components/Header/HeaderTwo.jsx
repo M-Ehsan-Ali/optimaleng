@@ -80,17 +80,19 @@ const HeaderTwo = () => {
   const { asPath, pathname } = useRouter();
 
   useEffect(() => {
-    setHash(asPath.split("#")[1]);
+    setHash(asPath);
   }, [asPath]);
-
+  console.log("asPath", asPath);
+  console.log("hash", hash);
   const isActiveLink = (id) => {
-    return id == "#" + hash ? "active" : "";
+    return id == hash ? "active" : "";
   };
 
   return (
     <header id="header">
       <div
         id="sticky-header"
+        style={{ padding: 0 }}
         className={cn(
           "menu-area menu-style-two transparent-header",
           stickyClass.header
@@ -107,31 +109,27 @@ const HeaderTwo = () => {
                 <nav className="menu-nav">
                   <div className="logo">
                     <Link href="/">
-                      <img src={"/img/logo/logo.png"} alt="" />
+                      <img src={"/img/logo/realLogo.png"} width={250} alt="" />
                     </Link>
                   </div>
                   <div className="navbar-wrap main-menu d-none d-lg-flex">
                     <ul className="navigation">
                       <li
                         className={cn(
-                          (!hash || hash == "header") && "active",
+                          (!hash || hash == "/") && "active",
                           " menu-item-has-children"
                         )}
                       >
-                        <Link
-                          href="/"
-                          className="section-link"
-                          onClick={() => handleClickScroll("header")}
-                        >
+                        <Link href="/" className="section-link">
                           Home
                         </Link>
                       </li>
-                      <li className={cn(hash == "about" && "active")}>
-                        <Link href="about?#about" className="section-link">
+                      <li className={cn(hash === "/about" && "active")}>
+                        <Link href="about" className="section-link">
                           About us
                         </Link>
                       </li>
-                      <li className={isActiveLink("#roadmap")}>
+                      {/* <li className={isActiveLink("#roadmap")}>
                         <Link
                           href="#roadmap"
                           className="section-link"
@@ -163,19 +161,15 @@ const HeaderTwo = () => {
                             <Link href="/blog/blog-details">Blog Details</Link>
                           </li>
                         </ul>
-                      </li>
-                      <li className={isActiveLink("#contact")}>
-                        <Link
-                          href="#contact"
-                          className="section-link"
-                          onClick={() => handleClickScroll("contact")}
-                        >
+                      </li> */}
+                      <li className={isActiveLink("/contact")}>
+                        <Link href="contact" className="section-link">
                           Contact us
                         </Link>
                       </li>
                     </ul>
                   </div>
-                  <div className="header-action d-none d-md-block">
+                  {/* <div className="header-action d-none d-md-block">
                     <ul>
                       <li className="header-lang">
                         <span className="selected-lang">ENG</span>
@@ -200,7 +194,7 @@ const HeaderTwo = () => {
                         </Link>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </nav>
               </div>
 
@@ -212,7 +206,12 @@ const HeaderTwo = () => {
                   </div>
                   <div className="nav-logo">
                     <Link href="/">
-                      <img src={"/img/logo/logo.png"} alt="" title="" />
+                      <img
+                        src={"/img/logo/realLogo.png"}
+                        width={250}
+                        alt=""
+                        title=""
+                      />
                     </Link>
                   </div>
                   <div className="menu-outer">

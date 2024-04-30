@@ -1,6 +1,4 @@
-import Link from "next/link";
-
-const AboutBanner = () => {
+const Banner = ({ title, src }) => {
   return (
     <section className="banner-area-two">
       <div className="banner-bg-two"></div>
@@ -9,19 +7,15 @@ const AboutBanner = () => {
           <div className="col-lg-12">
             <div className="banner-content text-center">
               <h2 className="title wow fadeInDown" data-wow-delay=".2s">
-                About Us
+                {title}
               </h2>
 
-              <img
-                src={"/img/images/h2_about_img.jpeg"}
-                width={"100%"}
-                alt="img"
-              />
+              <img src={src} width={"100%"} alt="img" />
             </div>
           </div>
         </div>
       </div>
-      <div className="banner-social-wrap">
+      {/* <div className="banner-social-wrap">
         <ul>
           <li>
             <a href="#" className="banner-social-link">
@@ -51,12 +45,12 @@ const AboutBanner = () => {
       </div>
       <div className="banner-scroll">
         <span>Scroll down</span>
-        <Link href="#about" data-target="about">
+        <Link href="about?#about" data-target="about">
           <img src={"/img/icon/scroll_icon.svg"} alt="" />
         </Link>
-      </div>
+      </div> */}
     </section>
   );
 };
 
-export default AboutBanner;
+export default Banner;

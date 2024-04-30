@@ -580,7 +580,7 @@ label {
   top: 0;
   width: 100%;
   z-index: 99;
-  background: #030b15;
+  background: #3f607c;
   -webkit-animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -1084,7 +1084,7 @@ label {
   z-index: 1;
 }
 .banner-bg-two {
-  background-image: url(/img/banner/banner_bg02.jpg);
+  background-image: url(/img/banner/bg-img.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
