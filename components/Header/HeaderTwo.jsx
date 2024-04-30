@@ -92,7 +92,6 @@ const HeaderTwo = () => {
     <header id="header">
       <div
         id="sticky-header"
-        style={{ padding: 0 }}
         className={cn(
           "menu-area menu-style-two transparent-header",
           stickyClass.header
@@ -109,7 +108,7 @@ const HeaderTwo = () => {
                 <nav className="menu-nav">
                   <div className="logo">
                     <Link href="/">
-                      <img src={"/img/logo/realLogo.png"} width={250} alt="" />
+                      <img src={"/img/logo/logo.png"} alt="" />
                     </Link>
                   </div>
                   <div className="navbar-wrap main-menu d-none d-lg-flex">
@@ -206,12 +205,7 @@ const HeaderTwo = () => {
                   </div>
                   <div className="nav-logo">
                     <Link href="/">
-                      <img
-                        src={"/img/logo/realLogo.png"}
-                        width={250}
-                        alt=""
-                        title=""
-                      />
+                      <img src={"/img/logo/logo.png"} alt="" title="" />
                     </Link>
                   </div>
                   <div className="menu-outer">
